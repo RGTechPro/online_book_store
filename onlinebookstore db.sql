@@ -58,7 +58,7 @@ create table Orders(
   customerID varchar(30),
   bookID int,
   quantity int not null,
-  total	int,
+  total	 int,
   timestamp datetime,
   primary key(orderID,customerID,timestamp,bookID)
 );
